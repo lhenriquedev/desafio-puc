@@ -1,0 +1,42 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid #36304a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table table th {
+  background-color: #36304a;
+  padding: 1rem;
+  color: #fff;
+}
+
+tbody tr {
+  width: 100%;
+  text-align: center;
+}
+
+tbody td {
+  padding: 1rem;
+}
+
+tbody tr.red {
+  background-color: rgb(250, 80, 80);
+}
+
+tbody tr.green {
+  background-color: rgb(123, 250, 123);
+}
